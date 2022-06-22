@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    flex-wrap: nowrap;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cornflowerblue;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.header-list{
+ position:relative;
+  display:inline;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Work-items{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    display:flex;
+
+}
+
+.content h2{
+padding: 10px;
+border-right: 3px solid rgb(102, 37, 37);
+display:inline-flex
+}
+.content .Work-items{
+  
+display:inline-flex;
+text-align: right;
+
+
+
+}
+.Work-items p{
+    display:flex;
+    text-align: center;
+    position:relative;
+    top: 10px;
+    
+    }
+.Projects{
+width: 300px;
+position: relative;
+}
+.Projects2{
+
+    width:30%
+}
+.Work-items a{
+    display:flex;
+    
+    }
+.Img-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+
+
+}
+.Bottom-Txt{
+  bottom: 8px;
+  left: 16px;
+}
+#Firstp{
+width: 400px;
+}
+.subheader{
+text-align: right;
+font-size: 30px;
+}
+
+li{
+
+    display:inline
+}
+header li a{
+color:black;
+display: inline-block;
+flex-direction: row;
+
+}
+li a{
+    color:black;
+    display: inline;
+    flex-direction: row;
+    
+    }
+
+.header-list{
+
+    flex-wrap: inherit;
+}
+.containerx{
+
+position:relative
+
+}
+#itemlist{
+    flex-wrap: wrap;
+}
+.containerx span{
+
+    position:absolute;
+left:30px;
+bottom: 20px;
+background-color: white;
+}
+
+
+@media (max-width: 900px) { 
+    .header h1{
+
+        font-size: 30px;
+    }
+     li a{
+font-size: 20px;
+
+    }
+
+
+    }
+
+    @media (max-width: 500px) { 
+        .header h1{
+    
+            font-size: 20px;
+        }
+         li a{
+    font-size: 10px;
+    
+        }
+    
+    
+        }
